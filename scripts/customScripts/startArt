@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# Las used image file path
 numFile=$HOME/Pictures/asciiArt/randomise/lastNum
+
+# 
 declare -i num=$(cat $numFile)
 limit=5
 
@@ -10,7 +13,7 @@ then
 	num=1
 fi
 
-imgFile=/home/liviu/Pictures/asciiArt/randomise/rand.$num
+imgFile=$HOME/Pictures/asciiArt/randomise/rand.$num
 
 # Print ascii art
 neofetch --ascii $imgFile --ascii_colors 1
