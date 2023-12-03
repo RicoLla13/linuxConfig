@@ -1,23 +1,7 @@
 window:
- 
-  dimensions:
-    columns: 100
-    lines: 25
   padding:
-    x: 5
-    y: 0
-
     dynamic_padding: true
   decorations: none
-
-scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
-  history: 10000
-
-  # Scrolling distance multiplier.
-  multiplier: 3
-
 # Font configuration
 font:
   # Normal (roman) font face
@@ -44,7 +28,7 @@ font:
 
     style: Bold Italic
 
-  size: 18
+  size: 12
 
 colors:
 

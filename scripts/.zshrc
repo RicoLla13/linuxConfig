@@ -21,6 +21,3 @@ source $ZSH/oh-my-zsh.sh
 $HOME/dev/scripts/startArt
 # Initiate ssh agent
 eval `ssh-agent` > /dev/null
-# Add ssh keys for vscode and raspberry
-ssh-add -q ~/.ssh/gitKey
-ssh-add -q ~/.ssh/rpiKey
