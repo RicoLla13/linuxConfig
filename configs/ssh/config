@@ -1,7 +1,0 @@
-Host liviupiGlobal
-	HostName #routerIpAddr#
-	User liviu
-
-Host liviupiLocal
-	HostName #rpiIpAddr#
-	User liviu
